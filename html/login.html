@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天网征信</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--样式表-->
+    <link rel="stylesheet" href="../font/style.css">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/layer/build/skin/default/layer.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <!--js库文件-->
+    <script type='text/javascript' src="../js/jquery/jquery.min.js"></script>
+    <script type='text/javascript' src="../js/bootstrap/bootstrap.min.js"></script>
+    <script type='text/javascript' src="../js/pace/pace.min.js"></script>
+    <script type='text/javascript' src="../js/layer/build/layer.js"></script>
+    <script type='text/javascript' src="../js/nicescroll/jquery.nicescroll.min.js"></script>
+    <!--表单验证-->
+    <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+</head>
+<body>
+<!--头部-->
+<div class="head">
+    <nav class="navbar  navbar-inverse navbar-red">
+        <div class="container-fluid">
+            <!--头部左侧 logo 开始-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="" href="shouye.html">
+                    <img src="../images/zx-logo.png" alt="">
+                </a>
+            </div>
+            <!--头部左侧 logo 结束-->
+
+            <!--头部右侧 搜索、用户 开始-->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <!--搜索 开始-->
+                <form class="navbar-form navbar-left headsearch">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="搜索企业">
+                    </div>
+                    <button type="submit" class="btn btn-head"><span class="icon icon-s icon-双筒望远镜_binoculars3"></span>天网征信</button>
+                </form>
+                <!--搜索 结束-->
+
+                <!--用户 开始-->
+                <ul class="nav navbar-nav navbar-right headRight">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img src="https://img.sandbox.qixinyun.com/o_1bckbrbhp2fs189012opbc1r03e.png" alt="">
+                            <span>用户名</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><span class="icon icon-设置"></span>个人设置</a></li>
+                            <li><a href="#"><span class="icon icon-我的企业"></span>我的企业</a></li>
+                            <li><a href="#"><span class="icon icon-我的消息"></span>我的消息</a></li>
+                            <li><a href="#"><span class="icon icon-我的评论"></span>我的评论</a></li>
+                            <li><a href="#"><span class="icon icon-我的关注"></span>我的关注</a></li>
+                            <li><a href="#"><span class="icon icon-我的积分-b"></span>我的积分</a></li>
+                            <li><a href="#"><span class="icon icon-最近访问"></span>最近访问</a></li>
+                            <li><a href="#"><span class="icon icon-退出"></span>退出登录</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!--用户 结束-->
+            </div>
+            <!--头部右侧 搜索、用户 结束-->
+        </div>
+    </nav>
+</div>
+
+
+<!--中间-->
+<div class="context col-md-12 col-xs-12">
+    <div class="ss hidden-xs">
+        <b>
+            天道酬勤<br/>
+            信守不渝
+        </b>
+        <p>天道酬勤，信守不渝</p>
+        <p>天网征信以专业征信机构为背景</p>
+        <p>以大数据技术为基础</p>
+        <p>为企业提供全方位征信服务</p>
+        <a class="btn dl" href="reg.html">立即注册</a>
+    </div>
+    <div class="lb">
+        <div class="login-form">
+            <div class="title col-xs-12">
+                <h2>
+                    用户登录
+                    <span>Sign In</span>
+                </h2>
+            </div>
+            <!--登录表单-->
+            <form id="login" autocomplete="off">
+                <div class="form-log">
+                    <div class="form-group">
+                        <div class="input-group has-error">
+                            <span class="input-group-addon icon icon-用户2"></span>
+                            <input type="text" class="form-control"  name="username" id="UserName" placeholder="用户名">
+                        </div>
+                    </div>
+                    <p class="prompot" id="btn2">
+                       <span class="false">
+                            用户名不正确
+                       </span>
+                    </p>
+                </div>
+                <div class="form-log">
+                    <div class="form-group">
+                        <div class="input-group has-success">
+                            <span class="input-group-addon icon icon-密码2"></span>
+                            <input type="password" class="form-control"  name="password" id="Password" placeholder="密码">
+                        </div>
+                    </div>
+                    <p class="prompot"></p>
+                </div>
+                <div class="form-group">
+                    <div id="drag">
+
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-dl btn-block">立即登录</button>
+                <div class="link">
+                    <a class="pull-left" href="resetPassword.html"><span class="icon icon-问号2"></span>忘记密码</a>
+                    <a class="pull-right" href="reg.html"><span class="icon icon-注册2"></span>还未注册</a>
+                </div>
+            </form>
+            <!--第三方登录-->
+            <div class="dsf">
+                <h4>第三方登录</h4>
+                <div class="dl">
+                    <a href="reg-3.html"><span class="icon icon-微信"></span>微信</a>
+                    <a href="javascript:;"><span class="icon icon-qq"></span>QQ</a>
+                    <a href="javascript:;"><span class="icon icon-微博"></span>微博</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--底部-->
+<div class="footer  col-md-12 col-xs-12">
+    <div>京ICP备11001652号-1 北京天网征信有限公司版权所有 2000-2017 Ver T-1.0</div>
+</div>
+
+<!--本页js-->
+<script type='text/javascript' src="../js/login.js"></script>
+<script type='text/javascript' src="../js/hd.js"></script>
+</body>
+
+</html>

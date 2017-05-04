@@ -1,0 +1,424 @@
+@media (min-width: 1200px) {
+  .compy {
+    padding: 15px 60px;
+    height: 100%;
+  }
+  .compy .comp {
+    padding: 15px 20px;
+    background-color: #fff;
+    overflow: auto;
+  }
+  .compy .comp .com_top {
+    height: 35px;
+    margin-bottom: 25px;
+  }
+  .compy .comp .com_top .glqy {
+    float: right;
+    height: 35px;
+  }
+  .compy .comp .com_top .glqy a {
+    height: 30px;
+    line-height: 30px;
+    background-color: #d8261c;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+  }
+  .compy .comp .com_nr {
+    overflow: auto;
+    padding-right: 20px;
+    min-height: 10px;
+  }
+  .compy .comp .com_nr::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #eee;
+  }
+  .compy .comp .com_nr::-webkit-scrollbar-thumb {
+    background-color: #d8261c;
+    border-radius: 2px;
+  }
+  .compy .comp .com_nr .panel {
+    border: 0;
+  }
+  .compy .comp .com_nr .panel .panel-heading {
+    padding: 10px 0px;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_t {
+    width: 5px;
+    height: 20px;
+    float: left;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_z {
+    background-color: #51d1ff;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_sb {
+    background-color: #d8261c;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_cg {
+    background-color: #48ff55;
+  }
+  .compy .comp .com_nr .panel .panel-heading .zt {
+    margin-left: 15px;
+  }
+  .compy .comp .com_nr .panel .panel-heading .xl {
+    float: right;
+    margin-top: 3px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .compy .comp .com_nr .panel .panel-body {
+    border: 0;
+    padding: 0;
+  }
+  .compy .comp .com_nr .panel .panel-body li {
+    padding: 20px 20px 10px;
+    border: 1px solid #fff;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top {
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    padding-bottom: 15px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_img {
+    float: left;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title {
+    float: left;
+    margin-left: 20px;
+    width: calc(100% - 100px);
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title h3 {
+    font-size: 18px;
+    line-height: 45px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title span {
+    color: #999;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .person {
+    float: left;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .time {
+    float: left;
+    margin-left: 30px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .reason {
+    float: right;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .reason a {
+    color: #d8261c;
+    margin-left: 10px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom {
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom span {
+    line-height: 32px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom .date {
+    color: #d8261c;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom .btn_cancel {
+    float: right;
+    padding: 5px 15px;
+    border: 1px solid #d8261c;
+    color: #d8261c;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom .btn_del {
+    border: 1px solid #555;
+    color: #555;
+  }
+  .compy .comp .com_nr .panel .panel-body .active {
+    border: 1px solid #51d1ff;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .compy {
+    padding: 25px 30px;
+    height: 100%;
+  }
+  .compy .comp {
+    padding: 15px 20px;
+    background-color: #fff;
+    overflow: auto;
+  }
+  .compy .comp .com_top {
+    height: 35px;
+    margin-bottom: 25px;
+  }
+  .compy .comp .com_top .glqy {
+    margin-right: 25px;
+    float: right;
+    height: 35px;
+  }
+  .compy .comp .com_top .glqy a {
+    height: 30px;
+    line-height: 30px;
+    background-color: #d8261c;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+  }
+  .compy .comp .com_nr {
+    overflow: auto;
+    padding-right: 20px;
+    min-height: 10px;
+  }
+  .compy .comp .com_nr::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #eee;
+  }
+  .compy .comp .com_nr::-webkit-scrollbar-thumb {
+    background-color: #d8261c;
+    border-radius: 2px;
+  }
+  .compy .comp .com_nr .panel {
+    border: 0;
+  }
+  .compy .comp .com_nr .panel .panel-heading {
+    padding: 10px 0px;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_t {
+    width: 5px;
+    height: 20px;
+    float: left;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_z {
+    background-color: #51d1ff;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_sb {
+    background-color: #d8261c;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_cg {
+    background-color: #48ff55;
+  }
+  .compy .comp .com_nr .panel .panel-heading .zt {
+    margin-left: 15px;
+  }
+  .compy .comp .com_nr .panel .panel-heading .xl {
+    float: right;
+    margin-top: 3px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .compy .comp .com_nr .panel .panel-body {
+    border: 0;
+    padding: 0;
+  }
+  .compy .comp .com_nr .panel .panel-body li {
+    padding: 20px 20px 10px;
+    border: 1px solid #fff;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top {
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    padding-bottom: 15px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_img {
+    float: left;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title {
+    float: left;
+    margin-left: 20px;
+    width: calc(100% - 100px);
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title h3 {
+    font-size: 18px;
+    line-height: 45px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title span {
+    color: #999;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .person {
+    float: left;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .time {
+    float: left;
+    margin-left: 30px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .reason {
+    float: right;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .reason a {
+    color: #d8261c;
+    margin-left: 10px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom {
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom span {
+    line-height: 32px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom .date {
+    color: #d8261c;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom .btn_cancel {
+    float: right;
+    padding: 5px 15px;
+    border: 1px solid #d8261c;
+    color: #d8261c;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom .btn_del {
+    border: 1px solid #555;
+    color: #555;
+  }
+  .compy .comp .com_nr .panel .panel-body .active {
+    border: 1px solid #51d1ff;
+  }
+}
+@media (max-width: 767px) {
+  .compy {
+    padding: 10px;
+    height: 100%;
+  }
+  .compy .comp {
+    padding: 15px 20px;
+    background-color: #fff;
+    overflow: auto;
+  }
+  .compy .comp .com_top {
+    height: 35px;
+    margin-bottom: 25px;
+  }
+  .compy .comp .com_top .glqy {
+    float: right;
+    height: 35px;
+  }
+  .compy .comp .com_top .glqy a {
+    height: 30px;
+    line-height: 30px;
+    background-color: #d8261c;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 4px;
+  }
+  .compy .comp .com_nr {
+    overflow: auto;
+    min-height: 10px;
+  }
+  .compy .comp .com_nr::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #eee;
+  }
+  .compy .comp .com_nr::-webkit-scrollbar-thumb {
+    background-color: #d8261c;
+    border-radius: 2px;
+  }
+  .compy .comp .com_nr .panel {
+    border: 0;
+  }
+  .compy .comp .com_nr .panel .panel-heading {
+    padding: 10px 0px;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_t {
+    width: 5px;
+    height: 20px;
+    float: left;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_z {
+    background-color: #51d1ff;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_sb {
+    background-color: #d8261c;
+  }
+  .compy .comp .com_nr .panel .panel-heading .sh_cg {
+    background-color: #48ff55;
+  }
+  .compy .comp .com_nr .panel .panel-heading .zt {
+    margin-left: 15px;
+  }
+  .compy .comp .com_nr .panel .panel-heading .xl {
+    float: right;
+    margin-top: 3px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .compy .comp .com_nr .panel .panel-body {
+    border: 0;
+    padding: 0;
+  }
+  .compy .comp .com_nr .panel .panel-body li {
+    padding: 20px 20px 10px;
+    border: 1px solid #fff;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top {
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    padding-bottom: 15px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_img {
+    float: left;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title {
+    float: left;
+    margin-left: 20px;
+    width: calc(100% - 100px);
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title h3 {
+    font-size: 14px;
+    line-height: 45px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title span {
+    color: #999;
+    font-size: 12px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .person {
+    float: left;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .time {
+    float: left;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .reason {
+    display: none;
+    float: right;
+  }
+  .compy .comp .com_nr .panel .panel-body li .top .top_title .reason a {
+    color: #d8261c;
+    margin-left: 10px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom {
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom span {
+    line-height: 32px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom .date {
+    color: #d8261c;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom .btn_cancel {
+    float: right;
+    padding: 5px 15px;
+    border: 1px solid #d8261c;
+    color: #d8261c;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .compy .comp .com_nr .panel .panel-body li .bottom .btn_del {
+    border: 1px solid #555;
+    color: #555;
+  }
+  .compy .comp .com_nr .panel .panel-body .active {
+    border: 1px solid #51d1ff;
+  }
+}

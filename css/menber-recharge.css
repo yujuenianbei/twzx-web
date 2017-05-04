@@ -1,0 +1,22 @@
+@media (min-width: 1200px) {
+  .recharge {
+    height: 100%;
+    padding: 26px 60px;
+    width: 100%;
+  }
+  .recharge .form {
+    margin-bottom: 15px;
+  }
+  .recharge .form .lab {
+    float: left;
+    width: 90px;
+    line-height: 38px;
+  }
+  .recharge .form .lab .dot {
+    margin-left: 10px;
+  }
+  .recharge .form .input input {
+    padding: 7px 7px;
+    width: 255px;
+  }
+}

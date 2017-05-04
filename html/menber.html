@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天网征信</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--样式表-->
+    <link rel="stylesheet" href="../font/style.css">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/layer/build/skin/default/layer.css">
+    <!--<link rel="stylesheet" href="../css/layui.css"  media="all">-->
+    <!--<link rel="stylesheet" href="//res.layui.com/layui/build/css/layui.css"  media="all">-->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/menber.css">
+
+
+    <!--js库文件-->
+    <script type='text/javascript' src="../js/jquery/jquery.min.js"></script>
+    <script type='text/javascript' src="../js/bootstrap/bootstrap.min.js"></script>
+    <script type='text/javascript' src="../js/pace/pace.min.js"></script>
+    <script type='text/javascript' src="../js/layer/build/layer.js"></script>
+    <script type='text/javascript' src="../js/lay/layui.js"></script>
+    <script type='text/javascript' src="../js/nicescroll/jquery.nicescroll.min.js"></script>
+</head>
+<body data-spy="scroll" data-target="#navbar-example">
+<!--头部-->
+<!--头部-->
+<div class="head">
+    <nav class="navbar  navbar-inverse navbar-red">
+        <div class="container-fluid">
+            <!--头部左侧 logo 开始-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="" href="shouye.html">
+                    <img src="../images/zx-logo.png" alt="">
+                </a>
+            </div>
+            <!--头部左侧 logo 结束-->
+
+            <!--头部右侧 搜索、用户 开始-->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <!--搜索 开始-->
+                <form class="navbar-form navbar-left headsearch">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="搜索企业">
+                    </div>
+                    <button type="submit" class="btn btn-head"><span class="icon icon-s icon-双筒望远镜_binoculars3"></span>天网征信</button>
+                </form>
+                <!--搜索 结束-->
+
+                <!--用户 开始-->
+                <ul class="nav navbar-nav navbar-right headRight">
+                    <!--注册前 start-->
+                    <li class="dropdown">
+                        <a href="#" class="dlu">
+                            登录
+                        </a>
+                    </li>
+                    <li class="dropdown zuce">
+                        <a href="#" class="zuce">
+                            注册
+                        </a>
+                    </li>
+                    <!--注册前 end-->
+
+                    <!--注册后 start-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img src="https://img.sandbox.qixinyun.com/o_1bckbrbhp2fs189012opbc1r03e.png" alt="">
+                            <span>用户名</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><span class="icon icon-icon-grzxwdsz"></span>个人设置</a></li>
+                            <li><a href="#"><span class="icon icon-icon-grzxwdqy"></span>我的企业</a></li>
+                            <li><a href="#"><span class="icon icon-icon-grzxwdxx2"></span>我的消息</a></li>
+                            <li><a href="#"><span class="icon icon-icon-grzxwdpl"></span>我的评论</a></li>
+                            <li><a href="#"><span class="icon icon-icon-grzxwdgz"></span>我的关注</a></li>
+                            <li><a href="#"><span class="icon icon-icon-grzxwdjf"></span>我的积分</a></li>
+                            <li><a href="#"><span class="icon icon-icon-grzxzjfw"></span>最近访问</a></li>
+                            <li><a href="#"><span class="icon icon-icon-grzxwdxf"></span>最近访问</a></li>
+                            <li><a href="#"><span class="icon icon-icon-grzxwdsz"></span>退出登录</a></li>
+                        </ul>
+                    </li>
+                    <!--注册后 end-->
+
+                </ul>
+                <!--用户 结束-->
+            </div>
+            <!--头部右侧 搜索、用户 结束-->
+        </div>
+    </nav>
+</div>
+<!--首页中间-->
+<div class="context col-md-12 col-xs-12">
+    <!--左侧-->
+    <div class="mLeft">
+        <div class="mlTop">
+            <div class="top">
+                <img src="../images/cominfo-h5-2.png" alt="" onclick="showPhoto()">
+                <div class="username">
+                    <h2>考试好烦</h2>
+                    <div class="num">
+                        <span class="jf">积分：</span>
+                        <span class="jf_num">2050</span>
+
+                        <span class="jf">余额：</span>
+                        <span class="jf_num">356</span>
+
+                        <span class="lijicz">充值</span>
+                    </div>
+                    <div class="yx_qq">
+                        <span class="icon icon-qq" onblur="mouin()" onclick="msg()">
+                            <span class="none">点击认证QQ</span>
+                        </span>
+                        <span class="icon icon-邮箱2" onblur="mouin()" onclick="msg()">
+                            <span class="none none1">点击认证邮箱</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mlNr">
+           <ul class="mlNr_left">
+               <li class="active"><span class="red"></span><span class="icon icon-icon-grzxwdsz"></span>个人设置</li>
+               <li><span class="red"></span><span class="icon icon-icon-grzxwdxx2"></span>我的消息</li>
+               <li><span class="red"></span><span class="icon icon-icon-grzxwdqy"></span>我的企业
+                   <ul class="li_ul">
+                       <li><span class="icon icon-icon-grzxwdqy"></span>审核中企业</li>
+                       <li><span class="icon icon-icon-grzxwdqy"></span>审核成功企业</li>
+                       <li><span class="icon icon-icon-grzxwdqy"></span>审核失败企业</li>
+                   </ul>
+               </li>
+               <li><span class="red"></span><span class="icon icon-icon-grzxwdpl"></span>我的评论</li>
+               <li><span class="red"></span><span class="icon icon-icon-grzxwdgz"></span>我的关注</li>
+               <li><span class="red"></span><span class="icon icon-icon-grzxjf"></span>我的积分</li>
+               <li><span class="red"></span><span class="icon icon-icon-grzxzjfw"></span>最近访问</li>
+               <li><span class="red"></span><span class="icon icon-icon-grzxwycz"></span>我的消费</li>
+           </ul>
+        </div>
+    </div>
+    <!--左侧 end-->
+
+    <!--右侧 start-->
+    <div class="mRight">
+
+    </div>
+    <!--右侧 end-->
+</div>
+
+<!--首页底部-->
+<div class="footer  col-md-12 col-xs-12">
+    <div>京ICP备11001652号-1 北京天网征信有限公司版权所有 2000-2017 Ver T-1.0</div>
+</div>
+
+
+
+
+<!--本页js-->
+<script type='text/javascript' src="../js/menber.js"></script>
+</body>
+</html>
+
+<!--https://www.lyblog.net/detail/314.html-->

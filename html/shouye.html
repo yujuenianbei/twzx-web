@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>天网征信</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--样式表-->
+    <link rel="stylesheet" href="../font/style.css">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../js/layer/build/skin/default/layer.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/shouye.css">
+    <!--js库文件-->
+    <script type='text/javascript' src="../js/jquery/jquery.min.js"></script>
+    <script type='text/javascript' src="../js/bootstrap/bootstrap.min.js"></script>
+    <script type='text/javascript' src="../js/pace/pace.min.js"></script>
+    <script type='text/javascript' src="../js/layer/build/layer.js"></script>
+    <script type='text/javascript' src="../js/nicescroll/jquery.nicescroll.min.js"></script>
+    <!--表单验证-->
+    <script type='text/javascript'
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.min.js"></script>
+</head>
+<body>
+<!--头部-->
+<div class="head">
+    <nav class="navbar  navbar-inverse navbar-red">
+        <div class="container-fluid">
+            <!--头部左侧 logo 开始-->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="" href="shouye.html">
+                    <img src="https://img.sandbox.qixinyun.com/twzx-zx-logo.png" alt="">
+                </a>
+            </div>
+            <!--头部左侧 logo 结束-->
+
+            <!--头部右侧 搜索、用户 开始-->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                <!--搜索 开始-->
+                <form class="navbar-form navbar-left headsearch">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="搜索企业">
+                    </div>
+                    <button type="submit" class="btn btn-head"><span class="icon icon-s icon-双筒望远镜_binoculars3"></span>天网征信</button>
+                </form>
+                <!--搜索 结束-->
+
+                <!--用户 开始-->
+                <ul class="nav navbar-nav navbar-right headRight">
+                    <!--注册前 start-->
+                    <li class="dropdown">
+                        <a href="#" class="dlu">
+                            登录
+                        </a>
+                    </li>
+                    <li class="dropdown zuce">
+                        <a href="#" class="zuce">
+                            注册
+                        </a>
+                    </li>
+                    <!--注册前 end-->
+
+                    <!--注册后 start-->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <img src="https://img.sandbox.qixinyun.com/o_1bckbrbhp2fs189012opbc1r03e.png" alt="">
+                            <span>用户名</span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><span class="icon icon-设置"></span>个人设置</a></li>
+                            <li><a href="#"><span class="icon icon-我的企业"></span>我的企业</a></li>
+                            <li><a href="#"><span class="icon icon-我的消息"></span>我的消息</a></li>
+                            <li><a href="#"><span class="icon icon-我的评论"></span>我的评论</a></li>
+                            <li><a href="#"><span class="icon icon-我的关注"></span>我的关注</a></li>
+                            <li><a href="#"><span class="icon icon-我的积分-b"></span>我的积分</a></li>
+                            <li><a href="#"><span class="icon icon-最近访问"></span>最近访问</a></li>
+                            <li><a href="#"><span class="icon icon-退出"></span>退出登录</a></li>
+                        </ul>
+                    </li>
+                    <!--注册后 end-->
+
+                </ul>
+                <!--用户 结束-->
+            </div>
+            <!--头部右侧 搜索、用户 结束-->
+        </div>
+    </nav>
+</div>
+
+
+<!--中间-->
+<div class="context col-md-12 col-xs-12">
+    <div class="search">
+        <!--log-->
+        <div class="img">
+            <img src="https://img.sandbox.qixinyun.com/shouye-log.png" alt="">
+        </div>
+        <!--log文字-->
+        <div class="txt">
+            <img src="https://img.sandbox.qixinyun.com/twzx-shouye-text-1.png" alt="">
+        </div>
+        <div class="txt">
+            <!--<img src="../images/shouye-text-2.png" alt="">-->
+            <!--<ul>-->
+                <!--<li><span class="tx1">企业</span></li>-->
+                <!--<li><span class="tx1">法人</span><span>/</span></li>-->
+                <!--<li><span class="tx1">股东</span><span>/</span></li>-->
+                <!--<li><span class="tx1">高管</span></li>-->
+                <!--<li><span class="tx1">品牌</span><span>/</span></li>-->
+                <!--<li><span class="tx1">商标</span></li>-->
+                <!--<li><span class="tx1">联系方式</span></li>-->
+            <!--</ul>-->
+            <ul class="nav nav-tabs nav-txt" role="tablist">
+                <li role="presentation" class="active"><a href="#qy" aria-controls="qy" role="tab" data-toggle="tab">企业</a></li>
+                <li role="presentation"><a href="#gg" aria-controls="gg" role="tab" data-toggle="tab">法人/股东/高管</a></li>
+                <li role="presentation"><a href="#pp" aria-controls="pp" role="tab" data-toggle="tab">品牌/商标</a></li>
+                <li role="presentation"><a href="#phone" aria-controls="phone" role="tab" data-toggle="tab">联系方式</a></li>
+            </ul>
+        </div>
+        <!--搜索 start-->
+        <div class="search-box col-md-12">
+
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="qy">
+                    <form class="navbar-form navbar-left searchin col-md-6">
+                        <div class="form-log">
+                            <div class="input-group">
+                                <input type="text" class="form-control search-input" name="id" id="id" placeholder="请输入公司名称">
+                                <span class="input-group-btn pull-right">
+                                    <button class="btn btn-index search-button" type="submit" value="天网征信"><span class="icon icon-双筒望远镜_binoculars3"></span>天网征信</button>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="gg">
+                    <form class="navbar-form navbar-left searchin col-md-6">
+                        <div class="form-log">
+                            <div class="input-group">
+                                <input type="text" class="form-control search-input" name="id" id="id" placeholder="请输入法人/股东/高管名称">
+                                <span class="input-group-btn pull-right">
+                                    <button class="btn btn-index search-button" type="submit" value="天网征信"><span class="icon icon-双筒望远镜_binoculars3"></span>天网征信</button>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="pp">
+                    <form class="navbar-form navbar-left searchin col-md-6">
+                        <div class="form-log">
+                            <div class="input-group">
+                                <input type="text" class="form-control search-input" name="id" id="id" placeholder="请输入品牌/商标名称">
+                                <span class="input-group-btn pull-right">
+                                    <button class="btn btn-index search-button" type="submit" value="天网征信"><span class="icon icon-双筒望远镜_binoculars3"></span>天网征信</button>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="phone">
+                    <form class="navbar-form navbar-left searchin col-md-6">
+                        <div class="form-log">
+                            <div class="input-group">
+                                <input type="text" class="form-control search-input" name="id" id="id" placeholder="请输入联系方式名称">
+                                <span class="input-group-btn pull-right">
+                                    <button class="btn btn-index search-button" type="submit" value="天网征信"><span class="icon icon-双筒望远镜_binoculars3"></span>天网征信</button>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <!--搜索 end-->
+    </div>
+</div>
+<a href="#" class="up  hidden-xs"><span class="icon icon-箭头向上"></span></a>
+<div class="title">
+    <div class="mm col-md-12 col-sm-12">
+        <div class="col-md-3 col-sm-3">
+            <h4><span class="icon icon-index-企业大数据"></span>企业大数据</h4>
+            <p>征信报告已被广泛运用于信贷领域、企业个人查询、社会管理和社会服务等方面,成为金融领域防范风险、信息主体参与经济活动的重要参考,其社会效应日益凸显。</p>
+        </div>
+        <div class="col-md-3 col-sm-3">
+            <h4><span class="icon icon-index-诉讼"></span>诉讼大数据</h4>
+            <p>2012年民事诉讼法的修改,首次明确了电子数据和视听资料证据的适用范围,确认了电子数据的具体形式,法律关于电子数据在司法实践中的规定日益完善,取证方面也逐步成熟.征信大数据在民事诉讼中将会有更好应用.</p>
+        </div>
+        <div class="col-md-3 col-sm-3">
+            <h4><span class="icon icon-index-媒体"></span>媒体评价</h4>
+            <p>大数据征信可科学客观公正地评价信用水平，通过输出各种标准化和定制化的身份识别、反欺诈、信用风险识别与跟踪产品与服务，回归“以人为本”，保护公民隐私，以商业化的方法推进互联网征信业务的健康发展。</p>
+        </div>
+        <div class="col-md-3 col-sm-3">
+            <h4><span class="icon icon-index-质量"></span>质量检查</h4>
+            <p>质量体系建设是企业效能监察工作的一项基础性工作,基于征信大数据的质量体系可以强化企业效能监察质量体系建设,有利于务实工作基础,破解发展瓶颈,推动效能监察工作在企业中的深入开展,为企业做大做强提供有力保障。</p>
+        </div>
+        <div class="col-md-3 col-sm-3">
+            <h4><span class="icon icon-index-行政"></span>行政监管</h4>
+            <p>市场经济下的竞争性市场和政府行政监管都是必不可少的。市场经济需要行政监管权力的介入以矫正市场失灵,维护公共利益。行政监管而行政监管的重要考量在于征信数据,以征信数据是行政监管权力的运行的重要组成部分。</p>
+        </div>
+        <div class="col-md-3 col-sm-3">
+            <h4><span class="icon icon-index-商标"></span>商标专利著作权</h4>
+            <p>从民法保护的角度来讲,我国现行保护商标专利著作权的法律机制,司法实践当中,商标侵权等行为也是引起商标纠纷的最主要原因，征信数据为各类侵权行为验明正身，维护企业合法权益保护司法公正。</p>
+        </div>
+        <div class="col-md-3 col-sm-3">
+            <h4><span class="icon icon-index-实名评价"></span>实名评价</h4>
+            <p>我是一名企业主，很多时候涉及产销和融资贷款，都需要出具征信报告，天网征信这里出具的信息参考意义很大，也帮助我顺利完成和各个企业，银行的对接，提供的服务形式选择空间很大，是一家专业的征信数据公司。</p>
+        </div>
+        <div class="col-md-3 col-sm-3">
+            <h4><span class="icon icon-index-企业加入"></span>企业加入</h4>
+            <p>如果你是一名企业主，如果你需要征信方面专业长效的服务，快来加入我们，让大数据为您以及您的企业保驾护航，让您不再为各种侵权事件而苦恼，让您不再为琐碎的评估而操心，我们提供服务的一定会是你最想要的。</p>
+        </div>
+    </div>
+</div>
+
+<!--底部-->
+<div class="footer  col-md-12 col-xs-12">
+    <div>京ICP备11001652号-1 北京天网征信有限公司版权所有 2000-2017 Ver T-1.0</div>
+</div>
+
+
+<!--本页js-->
+<script type='text/javascript' src="../js/shouye.js"></script>
+<script type='text/javascript' src="../js/index.js"></script>
+</body>
+</html>

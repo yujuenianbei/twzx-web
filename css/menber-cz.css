@@ -1,0 +1,545 @@
+@media (min-width: 1200px) {
+  .cz {
+    margin: 60px;
+    height: 100%;
+    overflow: auto;
+  }
+  .cz::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #eee;
+  }
+  .cz::-webkit-scrollbar-thumb {
+    background-color: #d8261c;
+    border-radius: 3px;
+  }
+  .cz .cz_form {
+    min-height: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .cz .cz_form .name {
+    float: left;
+    line-height: 34px;
+  }
+  .cz .cz_form .input {
+    padding: 5px 10px;
+    width: 255px;
+  }
+  .cz .cz_form .yhtc {
+    float: left;
+  }
+  .cz .cz_form .yhtc li {
+    float: left;
+    text-align: center;
+    width: 124px;
+    height: 70px;
+    border: 1px solid #eee;
+    padding: 15px 0px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .cz .cz_form .yhtc li .more_tc {
+    line-height: 40px;
+  }
+  .cz .cz_form .yhtc .on {
+    border: 1px solid #d8261c;
+  }
+  .cz .cz_form .czfs {
+    float: left;
+    border: 0;
+    width: 740px;
+  }
+  .cz .cz_form .czfs li {
+    width: 124px;
+    border: 1px solid #eee;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 5px;
+  }
+  .cz .cz_form .czfs li a {
+    padding: 10px 10px;
+    display: block;
+    border: 0;
+    border-radius: 0;
+  }
+  .cz .cz_form .czfs li.active {
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .czfs li.active a {
+    background: url(https://img.sandbox.qixinyun.com/twzx-menber-cz-select.png) center no-repeat;
+  }
+  .cz .cz_form .zffs {
+    float: left;
+  }
+  .cz .cz_form .zffs .money {
+    color: #d8261c;
+  }
+  .cz .cz_form .weixin .img {
+    margin-top: 10px;
+  }
+  .cz .cz_form .weixin .img img {
+    width: 124px;
+    height: 124px;
+  }
+  .cz .cz_form .weixin .wx_money {
+    min-height: 10px;
+    overflow: hidden;
+  }
+  .cz .cz_form .weixin .sm {
+    background-color: #d8261c;
+    border-radius: 4px;
+    padding: 2px 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .cz .cz_form .weixin .yhk_btn {
+    background-color: #d8261c;
+    color: #fff;
+    border: 0;
+    width: 124px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 7px 0px;
+  }
+  .cz .cz_form .weixin .yhk_btn:focus {
+    border: 0;
+    outline: rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .yh {
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+  }
+  .cz .cz_form .yh .czfs {
+    float: left;
+    border: 0;
+    width: 84%;
+  }
+  .cz .cz_form .yh .czfs li {
+    float: left;
+    width: 124px;
+    border: 1px solid #eee;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .cz .cz_form .yh .czfs li a {
+    padding: 10px 10px;
+    display: block;
+    border: 0;
+    border-radius: 0;
+  }
+  .cz .cz_form .yh .czfs li a span {
+    padding-right: 3px ;
+  }
+  .cz .cz_form .yh .czfs li.active {
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .yh .czfs li.active a {
+    background: url(https://img.sandbox.qixinyun.com/twzx-menber-cz-select.png) center no-repeat;
+  }
+  .cz .cz_form .yh .czfs .bank {
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+  }
+  .cz .cz_form .yh .czfs .bank input {
+    vertical-align: sub;
+  }
+  .cz .cz_form .yh .czfs .bank s {
+    text-decoration: none;
+    line-height: 32px;
+  }
+  .cz .cz_form .yh .yhk_btn {
+    margin-top: 10px;
+    background-color: #d8261c;
+    color: #fff;
+    border: 0;
+    width: 124px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 7px 0px;
+  }
+  .cz .cz_form .yh .yhk_btn:focus {
+    border: 0;
+    outline: rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .yh h4 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #d8261c;
+    font-weight: 600;
+    width: 260px;
+    float: left;
+  }
+  .cz .cz_form .yh .text {
+    padding: 5px 10px;
+    width: 255px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .cz {
+    margin: 60px;
+    height: 100%;
+    overflow: auto;
+  }
+  .cz::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #eee;
+  }
+  .cz::-webkit-scrollbar-thumb {
+    background-color: #d8261c;
+    border-radius: 3px;
+  }
+  .cz .cz_form {
+    min-height: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .cz .cz_form .name {
+    float: left;
+    line-height: 34px;
+  }
+  .cz .cz_form .input {
+    padding: 5px 10px;
+    width: 255px;
+  }
+  .cz .cz_form .yhtc {
+    float: left;
+  }
+  .cz .cz_form .yhtc li {
+    float: left;
+    text-align: center;
+    width: 124px;
+    height: 70px;
+    border: 1px solid #eee;
+    padding: 15px 0px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  .cz .cz_form .yhtc li .more_tc {
+    line-height: 40px;
+  }
+  .cz .cz_form .czfs {
+    float: left;
+    border: 0;
+    width: 740px;
+  }
+  .cz .cz_form .czfs li {
+    width: 124px;
+    border: 1px solid #eee;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 1px;
+  }
+  .cz .cz_form .czfs li a {
+    padding: 10px 10px;
+    display: block;
+    border: 0;
+    border-radius: 0;
+  }
+  .cz .cz_form .czfs li.active {
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .czfs li.active a {
+    background: url(https://img.sandbox.qixinyun.com/twzx-menber-cz-select.png) center no-repeat;
+  }
+  .cz .cz_form .zffs {
+    float: left;
+  }
+  .cz .cz_form .zffs .money {
+    color: #d8261c;
+  }
+  .cz .cz_form .weixin .img {
+    margin-top: 10px;
+  }
+  .cz .cz_form .weixin .img img {
+    width: 124px;
+    height: 124px;
+  }
+  .cz .cz_form .weixin .wx_money {
+    min-height: 10px;
+    overflow: hidden;
+  }
+  .cz .cz_form .weixin .sm {
+    background-color: #d8261c;
+    border-radius: 4px;
+    padding: 2px 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .cz .cz_form .weixin .yhk_btn {
+    background-color: #d8261c;
+    color: #fff;
+    border: 0;
+    width: 124px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 7px 0px;
+  }
+  .cz .cz_form .weixin .yhk_btn:focus {
+    border: 0;
+    outline: rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .yh {
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+  }
+  .cz .cz_form .yh .czfs {
+    float: left;
+    border: 0;
+    width: 84%;
+  }
+  .cz .cz_form .yh .czfs li {
+    float: left;
+    width: 124px;
+    border: 1px solid #eee;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 10px;
+  }
+  .cz .cz_form .yh .czfs li a {
+    padding: 10px 10px;
+    display: block;
+    border: 0;
+    border-radius: 0;
+  }
+  .cz .cz_form .yh .czfs li.active {
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .yh .czfs li.active a {
+    background: url(https://img.sandbox.qixinyun.com/twzx-menber-cz-select.png) center no-repeat;
+  }
+  .cz .cz_form .yh .czfs .bank {
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+  }
+  .cz .cz_form .yh .czfs .bank input {
+    vertical-align: sub;
+  }
+  .cz .cz_form .yh .czfs .bank s {
+    text-decoration: none;
+    line-height: 32px;
+  }
+  .cz .cz_form .yh .yhk_btn {
+    margin-top: 10px;
+    background-color: #d8261c;
+    color: #fff;
+    border: 0;
+    width: 124px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 7px 0px;
+  }
+  .cz .cz_form .yh .yhk_btn:focus {
+    border: 0;
+    outline: rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .yh h4 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #d8261c;
+    font-weight: 600;
+    width: 260px;
+    float: left;
+  }
+  .cz .cz_form .yh .text {
+    padding: 5px 10px;
+    width: 255px;
+  }
+}
+@media (max-width: 767px) {
+  .cz {
+    padding: 15px;
+    height: 100%;
+    overflow: auto;
+  }
+  .cz::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #eee;
+  }
+  .cz::-webkit-scrollbar-thumb {
+    background-color: #d8261c;
+    border-radius: 3px;
+  }
+  .cz .cz_form {
+    min-height: 10px;
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .cz .cz_form .name {
+    float: left;
+    line-height: 34px;
+    width: 26%;
+  }
+  .cz .cz_form .input {
+    padding: 5px 10px;
+    width: 74%;
+  }
+  .cz .cz_form .yhtc {
+    float: left;
+  }
+  .cz .cz_form .yhtc li {
+    float: left;
+    text-align: center;
+    width: 16%;
+    height: 70px;
+    border: 1px solid #eee;
+    padding: 15px 0px;
+    cursor: pointer;
+    margin: 0px 2%;
+  }
+  .cz .cz_form .yhtc li img {
+    display: none;
+  }
+  .cz .cz_form .yhtc li .more_tc {
+    line-height: 40px;
+  }
+  .cz .cz_form .yhtc .on {
+    border: 1px solid #d8261c;
+  }
+  .cz .cz_form .czfs {
+    float: left;
+    border: 0;
+  }
+  .cz .cz_form .czfs li {
+    width: 100%;
+    border: 1px solid #eee;
+    text-align: center;
+    margin-right: 15px;
+    margin-bottom: 1px;
+  }
+  .cz .cz_form .czfs li a {
+    text-align: left;
+    padding: 10px 10px;
+    display: block;
+    border: 1px solid #eee;
+    border-radius: 0;
+  }
+  .cz .cz_form .czfs li.active {
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .czfs li.active a {
+    border: 1px solid #d8261c;
+  }
+  .cz .cz_form .zffs {
+    float: left;
+  }
+  .cz .cz_form .zffs .money {
+    color: #d8261c;
+    width: 70px;
+  }
+  .cz .cz_form .weixin .img {
+    margin-top: 10px;
+  }
+  .cz .cz_form .weixin .img img {
+    width: 124px;
+    height: 124px;
+  }
+  .cz .cz_form .weixin .wx_money {
+    min-height: 10px;
+    overflow: hidden;
+  }
+  .cz .cz_form .weixin .sm {
+    background-color: #d8261c;
+    border-radius: 4px;
+    padding: 2px 15px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .cz .cz_form .weixin .yhk_btn {
+    background-color: #d8261c;
+    color: #fff;
+    border: 0;
+    width: 124px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 7px 0px;
+  }
+  .cz .cz_form .weixin .yhk_btn:focus {
+    border: 0;
+    outline: rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .yh {
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+  }
+  .cz .cz_form .yh .czfs {
+    float: left;
+    border: 0;
+    width: 100%;
+  }
+  .cz .cz_form .yh .czfs li {
+    float: left;
+    width: 48%;
+    border: 1px solid #eee;
+    text-align: center;
+    margin: 0px 1%;
+    margin-bottom: 10px;
+  }
+  .cz .cz_form .yh .czfs li a {
+    padding: 10px 10px;
+    display: block;
+    border: 0;
+    border-radius: 0;
+  }
+  .cz .cz_form .yh .czfs li.active {
+    border: 1px solid rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .yh .czfs li.active a {
+    border: 1px solid #d8261c;
+  }
+  .cz .cz_form .yh .czfs .bank {
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+  }
+  .cz .cz_form .yh .czfs .bank input {
+    vertical-align: sub;
+  }
+  .cz .cz_form .yh .czfs .bank s {
+    text-decoration: none;
+    line-height: 32px;
+  }
+  .cz .cz_form .yh .yhk_btn {
+    margin-top: 10px;
+    background-color: #d8261c;
+    color: #fff;
+    border: 0;
+    width: 124px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 7px 0px;
+  }
+  .cz .cz_form .yh .yhk_btn:focus {
+    border: 0;
+    outline: rgba(255, 255, 255, 0);
+  }
+  .cz .cz_form .yh h4 {
+    line-height: 30px;
+    font-size: 16px;
+    color: #d8261c;
+    font-weight: 600;
+    width: 100%;
+    float: left;
+  }
+  .cz .cz_form .yh .text {
+    padding: 5px 10px;
+    width: 100%;
+  }
+}
+.cz_alert {
+  color: #ddc704;
+}

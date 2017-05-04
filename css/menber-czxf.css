@@ -1,0 +1,516 @@
+.nav > li > a:focus,
+.nav > li > a:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+@media (min-width: 1200px) {
+  .interg {
+    height: 100%;
+    padding: 30px 60px;
+  }
+  .interg .inter_top {
+    height: 272px;
+    width: 100%;
+    background: url(http://og2a9bht0.bkt.clouddn.com/o_1bbo0r1chfvv15hm1hf21k8l1lc92f.jpg) center 0 no-repeat;
+  }
+  .interg .inter_top .inter_title {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .interg .inter_top .inter_title span {
+    color: #fff;
+  }
+  .interg .inter_top .inter_title b {
+    font-size: 34px;
+    line-height: 70px;
+    font-weight: 300;
+    color: #fff;
+  }
+  .interg .inter_top .inter_dh {
+    margin-top: -55px;
+    margin-left: 85px;
+    float: left;
+  }
+  .interg .inter_top .inter_dh .jfdh {
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: #d8261c;
+    color: #fff;
+  }
+  .interg .inter_top .inter_gz {
+    margin-top: -55px;
+    margin-right: 85px;
+    float: right;
+    color: #d8261c;
+  }
+  .interg .inter_top .inter_gz a {
+    color: #d8261c;
+  }
+  .interg .inter_nr {
+    margin: 0;
+    overflow: auto;
+  }
+  .interg .inter_nr .nav-tabs {
+    border: 0;
+    background-color: #fff;
+  }
+  .interg .inter_nr .nav-tabs li {
+    width: 50%;
+    height: 100%;
+    border: 0;
+    border-radius: 0px;
+  }
+  .interg .inter_nr .nav-tabs li a {
+    background-color: #fff;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    color: #d8261c;
+  }
+  .interg .inter_nr .nav-tabs li a:hover {
+    border: 0;
+  }
+  .interg .inter_nr .nav-tabs li:hover {
+    width: 50%;
+    height: 100%;
+    border: 0;
+    border-radius: 0px;
+  }
+  .interg .inter_nr .nav-tabs li:hover a {
+    margin: 0;
+    border-radius: 0;
+    color: #fff;
+    background-color: #980702;
+  }
+  .interg .inter_nr .nav-tabs li:hover a:hover {
+    border: 0;
+  }
+  .interg .inter_nr .nav-tabs .active {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+  .interg .inter_nr .nav-tabs .active a {
+    background-color: #d8261c;
+    color: #fff;
+  }
+  .interg .inter_nr li {
+    width: 20%;
+    background-color: #eee;
+    color: #fff;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .interg .inter_nr .table {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+  }
+  .interg .inter_nr .table::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #eee;
+  }
+  .interg .inter_nr .table::-webkit-scrollbar-thumb {
+    background-color: #d8261c;
+    border-radius: 2px;
+  }
+  .interg .inter_nr .table table {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+  }
+  .interg .inter_nr .table table tr {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-top: 0;
+  }
+  .interg .inter_nr .table table th,
+  .interg .inter_nr .table table td {
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+  }
+  .interg .inter_nr .table table th p,
+  .interg .inter_nr .table table td p {
+    line-height: 0;
+    color: #d8261c;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .interg .inter_nr .table table th {
+    width: 20%;
+    background-color: #eee;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #555;
+    font-weight: 300;
+  }
+  .bh {
+    text-align: center;
+  }
+  .bh h3 {
+    font-weight: 800;
+    text-align: center;
+    line-height: 30px;
+  }
+  .layui-layer-btn {
+    text-align: center;
+  }
+  .layui-layer-btn0 {
+    border-color: #d8261c !important;
+    background-color: #d8261c !important;
+    color: #fff;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .interg {
+    height: 100%;
+    padding: 20px 60px;
+    background: #fff;
+    width: 94%;
+    margin: 15px auto;
+  }
+  .interg .inter_top {
+    height: 272px;
+    width: 100%;
+    background: url(http://og2a9bht0.bkt.clouddn.com/o_1bbo0r1chfvv15hm1hf21k8l1lc92f.jpg) center 0 no-repeat;
+  }
+  .interg .inter_top .inter_title {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .interg .inter_top .inter_title span {
+    color: #fff;
+  }
+  .interg .inter_top .inter_title b {
+    font-size: 34px;
+    line-height: 70px;
+    font-weight: 300;
+    color: #fff;
+  }
+  .interg .inter_top .inter_dh {
+    margin-top: -55px;
+    margin-left: 40px;
+    float: left;
+  }
+  .interg .inter_top .inter_dh .jfdh {
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: #d8261c;
+    color: #fff;
+  }
+  .interg .inter_top .inter_gz {
+    margin-top: -55px;
+    margin-right: 40px;
+    float: right;
+    color: #d8261c;
+  }
+  .interg .inter_top .inter_gz a {
+    color: #d8261c;
+  }
+  .interg .inter_nr {
+    margin: 0;
+    overflow: auto;
+  }
+  .interg .inter_nr .nav-tabs {
+    border: 0;
+    background-color: #fff;
+  }
+  .interg .inter_nr .nav-tabs li {
+    width: 50%;
+    height: 100%;
+    border: 0;
+    border-radius: 0px;
+  }
+  .interg .inter_nr .nav-tabs li a {
+    background-color: #fff;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    color: #d8261c;
+  }
+  .interg .inter_nr .nav-tabs li a:hover {
+    border: 0;
+  }
+  .interg .inter_nr .nav-tabs li:hover {
+    width: 50%;
+    height: 100%;
+    border: 0;
+    border-radius: 0px;
+  }
+  .interg .inter_nr .nav-tabs li:hover a {
+    margin: 0;
+    border-radius: 0;
+    color: #fff;
+    background-color: #980702;
+  }
+  .interg .inter_nr .nav-tabs li:hover a:hover {
+    border: 0;
+  }
+  .interg .inter_nr .nav-tabs .active {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+  .interg .inter_nr .nav-tabs .active a {
+    background-color: #d8261c;
+    color: #fff;
+  }
+  .interg .inter_nr li {
+    width: 20%;
+    background-color: #eee;
+    color: #fff;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .interg .inter_nr .table {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+  }
+  .interg .inter_nr .table::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #eee;
+  }
+  .interg .inter_nr .table::-webkit-scrollbar-thumb {
+    background-color: #d8261c;
+    border-radius: 2px;
+  }
+  .interg .inter_nr .table table {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+  }
+  .interg .inter_nr .table table tr {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-top: 0;
+  }
+  .interg .inter_nr .table table th,
+  .interg .inter_nr .table table td {
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+  }
+  .interg .inter_nr .table table th p,
+  .interg .inter_nr .table table td p {
+    line-height: 0;
+    color: #d8261c;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .interg .inter_nr .table table th {
+    width: 20%;
+    background-color: #eee;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #555;
+    font-weight: 300;
+  }
+  .bh {
+    text-align: center;
+  }
+  .bh h3 {
+    font-weight: 800;
+    text-align: center;
+    line-height: 30px;
+  }
+  .layui-layer-btn {
+    text-align: center;
+  }
+  .layui-layer-btn0 {
+    border-color: #d8261c !important;
+    background-color: #d8261c !important;
+    color: #fff;
+  }
+}
+@media (max-width: 767px) {
+  .interg {
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  .interg .inter_top {
+    height: 272px;
+    width: 100%;
+    background-size: 100% ;
+    background: url(http://og2a9bht0.bkt.clouddn.com/o_1bbo0r1chfvv15hm1hf21k8l1lc92f.jpg) center 0 no-repeat;
+  }
+  .interg .inter_top .inter_title {
+    text-align: center;
+    padding-top: 100px;
+  }
+  .interg .inter_top .inter_title span {
+    color: #fff;
+  }
+  .interg .inter_top .inter_title b {
+    font-size: 34px;
+    line-height: 70px;
+    font-weight: 300;
+    color: #fff;
+  }
+  .interg .inter_top .inter_dh {
+    margin-top: 25px;
+    margin-left: 10px;
+    float: left;
+  }
+  .interg .inter_top .inter_dh .jfdh {
+    cursor: pointer;
+    padding: 6px 25px;
+    background-color: #d8261c;
+    color: #fff;
+  }
+  .interg .inter_top .inter_gz {
+    margin-top: 25px;
+    margin-right: 10px;
+    float: right;
+    color: #d8261c;
+  }
+  .interg .inter_top .inter_gz a {
+    color: #d8261c;
+  }
+  .interg .inter_nr {
+    margin: 0;
+    overflow: auto;
+  }
+  .interg .inter_nr .nav-tabs {
+    border: 0;
+    background-color: #fff;
+  }
+  .interg .inter_nr .nav-tabs li {
+    width: 50%;
+    height: 100%;
+    border: 0;
+    border-radius: 0px;
+  }
+  .interg .inter_nr .nav-tabs li a {
+    background-color: #fff;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    color: #d8261c;
+  }
+  .interg .inter_nr .nav-tabs li a:hover {
+    border: 0;
+  }
+  .interg .inter_nr .nav-tabs li:hover {
+    width: 50%;
+    height: 100%;
+    border: 0;
+    border-radius: 0px;
+  }
+  .interg .inter_nr .nav-tabs li:hover a {
+    margin: 0;
+    border-radius: 0;
+    color: #fff;
+    background-color: #980702;
+  }
+  .interg .inter_nr .nav-tabs li:hover a:hover {
+    border: 0;
+  }
+  .interg .inter_nr .nav-tabs .active {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+  .interg .inter_nr .nav-tabs .active a {
+    background-color: #d8261c;
+    color: #fff;
+  }
+  .interg .inter_nr li {
+    width: 20%;
+    background-color: #eee;
+    color: #fff;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
+  .interg .inter_nr .table {
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+  }
+  .interg .inter_nr .table::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #eee;
+  }
+  .interg .inter_nr .table::-webkit-scrollbar-thumb {
+    background-color: #d8261c;
+    border-radius: 2px;
+  }
+  .interg .inter_nr .table table {
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+  }
+  .interg .inter_nr .table table tr {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #eee;
+    border-top: 0;
+  }
+  .interg .inter_nr .table table th,
+  .interg .inter_nr .table table td {
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+  }
+  .interg .inter_nr .table table th p,
+  .interg .inter_nr .table table td p {
+    line-height: 0;
+    color: #d8261c;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .interg .inter_nr .table table th {
+    width: 20%;
+    background-color: #eee;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #555;
+    font-weight: 300;
+  }
+  .bh {
+    display: none;
+    text-align: center;
+  }
+  .bh h3 {
+    font-weight: 800;
+    text-align: center;
+    line-height: 30px;
+  }
+  .layui-layer-btn {
+    text-align: center;
+  }
+  .layui-layer-btn0 {
+    border-color: #d8261c !important;
+    background-color: #d8261c !important;
+    color: #fff;
+  }
+}
+.zw {
+  text-align: center;
+  padding: 35px 0px;
+}
+.zw p {
+  color: #555;
+  font-size: 16px;
+}

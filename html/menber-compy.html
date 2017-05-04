@@ -1,0 +1,221 @@
+<link rel="stylesheet" href="../css/menber-compy.css">
+<div class="compy">
+    <div class="comp">
+        <div class="com_top">
+            <div class="glqy">
+                <a href="#">
+                    <span class="icon icon-企业"></span>
+                    关联企业
+                </a>
+            </div>
+        </div>
+        <div class="com_nr">
+            <!--审核中的企业 start-->
+            <div class="panel-group" id="n1" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading title" id="n1top" role="button" data-toggle="collapse" data-parent="#n1top" href="#n1nr" aria-expanded="true" aria-controls="n1nr">
+                        <span class="sh_z sh_t"></span>
+                        <span class="zt">审核中的企业</span>
+                        <span class="icon icon-下拉 xl"></span>
+                    </div>
+                    <div id="n1nr" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="n1top">
+                        <div class="panel-body">
+                            <ul>
+                                <li class="active">
+                                    <div class="top">
+                                        <div class="top_img">
+                                            <img src="../images/cominfo-h5-2.png" alt="">
+                                        </div>
+                                        <div class="top_title">
+                                            <h3>成都XX科技有限公司</h3>
+                                            <div class="person">
+                                                <span class="icon icon-下拉"></span>
+                                                <span class="name">申请人 ：</span>
+                                                <span class="name">张三</span>
+                                            </div>
+                                            <div class="time">
+                                                <span class="icon icon-下拉"></span>
+                                                <span class="name">提交时间 ：</span>
+                                                <span class="name">2017-4-25</span>
+                                            </div>
+                                            <div class="reason">
+                                                <span class="reason_name">未通过原因：</span>
+                                                <span class="reason_info">证照未上传完整</span>
+                                                <a href="#">查看详情</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <span class="time">预计通过审核时间：</span>
+                                        <span class="date">2016-4-25</span>
+                                        <div class="btn_cancel" onclick="move()">
+                                            撤销申请
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="top">
+                                        <div class="top_img">
+                                            <img src="../images/cominfo-h5-2.png" alt="">
+                                        </div>
+                                        <div class="top_title">
+                                            <h3>成都XX科技有限公司</h3>
+                                            <div class="person">
+                                                <span class="icon icon-下拉"></span>
+                                                <span class="name">申请人 ：</span>
+                                                <span class="name">张三</span>
+                                            </div>
+                                            <div class="time">
+                                                <span class="icon icon-下拉"></span>
+                                                <span class="name">提交时间 ：</span>
+                                                <span class="name">2017-4-25</span>
+                                            </div>
+                                            <div class="reason">
+                                                <span class="reason_name">未通过原因：</span>
+                                                <span class="reason_info">证照未上传完整</span>
+                                                <a href="#">查看详情</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <span class="time">预计通过审核时间：</span>
+                                        <span class="date">2016-4-25</span>
+                                        <div class="btn_cancel" onclick="move()">
+                                            撤销申请
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--审核中的企业 start-->
+
+            <!--审核失败的企业 start-->
+            <div class="panel-group" id="n2" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading title" id="n2top" role="button" data-toggle="collapse" data-parent="#n2top" href="#n2nr" aria-expanded="true" aria-controls="n2nr">
+                        <span class="sh_sb sh_t"></span>
+                        <span class="zt">审核失败的企业</span>
+                        <span class="icon icon-下拉 xl"></span>
+                    </div>
+                    <div id="n2nr" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="n2top">
+                        <div class="panel-body">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>
+                                        <div class="top">
+                                            <div class="top_img">
+                                                <img src="../images/cominfo-h5-2.png" alt="">
+                                            </div>
+                                            <div class="top_title">
+                                                <h3>成都XX科技有限公司</h3>
+                                                <div class="person">
+                                                    <span class="icon icon-下拉"></span>
+                                                    <span class="name">申请人 ：</span>
+                                                    <span class="name">张三</span>
+                                                </div>
+                                                <div class="time">
+                                                    <span class="icon icon-下拉"></span>
+                                                    <span class="name">提交时间 ：</span>
+                                                    <span class="name">2017-4-25</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="time">未通过审核时间：</span>
+                                            <span class="date">2016-4-25</span>
+                                            <div class="btn_cancel btn_del" onclick="del()">
+                                                删除申请
+                                            </div>
+                                            <div class="btn_cancel" onclick="retry()">
+                                                重新申请
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="top">
+                                            <div class="top_img">
+                                                <img src="../images/cominfo-h5-2.png" alt="">
+                                            </div>
+                                            <div class="top_title">
+                                                <h3>成都XX科技有限公司</h3>
+                                                <div class="person">
+                                                    <span class="icon icon-下拉"></span>
+                                                    <span class="name">申请人 ：</span>
+                                                    <span class="name">张三</span>
+                                                </div>
+                                                <div class="time">
+                                                    <span class="icon icon-下拉"></span>
+                                                    <span class="name">提交时间 ：</span>
+                                                    <span class="name">2017-4-25</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="time">未通过审核时间：</span>
+                                            <span class="date">2016-4-25</span>
+                                            <div class="btn_cancel btn_del" onclick="del()">
+                                                删除申请
+                                            </div>
+                                            <div class="btn_cancel" onclick="retry()">
+                                                重新申请
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--审核失败的企业 start-->
+
+            <!--审核成功的企业 start-->
+            <div class="panel-group" id="n3" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading title" id="n3top" role="button" data-toggle="collapse" data-parent="#n3top" href="#n3nr" aria-expanded="true" aria-controls="n3nr">
+                        <span class="sh_cg sh_t"></span>
+                        <span class="zt">审核成功的企业</span>
+                        <span class="icon icon-下拉 xl"></span>
+                    </div>
+                    <div id="n3nr" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="n3top">
+                        <div class="panel-body">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>
+                                        <div class="top">
+                                            <div class="top_img">
+                                                <img src="../images/cominfo-h5-2.png" alt="">
+                                            </div>
+                                            <div class="top_title">
+                                                <h3>成都XX科技有限公司</h3>
+                                                <div class="person">
+                                                    <span class="icon icon-下拉"></span>
+                                                    <span class="name">申请人 ：</span>
+                                                    <span class="name">张三</span>
+                                                </div>
+                                                <div class="time">
+                                                    <span class="icon icon-下拉"></span>
+                                                    <span class="name">提交时间 ：</span>
+                                                    <span class="name">2017-4-25</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bottom">
+                                            <span class="time">通过审核时间：</span>
+                                            <span class="date">2016-4-25</span>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--审核成功的企业 start-->
+        </div>
+    </div>
+</div>
+<script type='text/javascript' src="../js/menber-compy.js"></script>

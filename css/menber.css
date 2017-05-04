@@ -1,0 +1,276 @@
+html {
+  min-height: 100%;
+}
+html body {
+  width: 100%;
+  min-height: 100%;
+  background-color: #eee;
+}
+@media (min-width: 1200px) {
+  html body .context {
+    width: 1200px;
+    overflow: hidden;
+    margin: 15px auto 0;
+    transition: 0.3s;
+    top: 30%;
+  }
+  html body .context .mLeft {
+    display: block;
+    width: 245px;
+    height: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    float: left;
+  }
+  html body .context .mLeft .mlTop {
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+    background: url(https://img.sandbox.qixinyun.com/twzx-cominfo-menber-left.png) 0 0 no-repeat;
+  }
+  html body .context .mLeft .mlTop .top {
+    margin: 70px 30px;
+    text-align: center;
+  }
+  html body .context .mLeft .mlTop .top img {
+    margin: 0 auto;
+    width: 92px;
+    height: 92px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+  }
+  html body .context .mLeft .mlTop .top .username {
+    margin-top: 30px;
+  }
+  html body .context .mLeft .mlTop .top .username h2 {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+  }
+  html body .context .mLeft .mlTop .top .username .num {
+    text-align: center;
+    margin-top: 10px;
+  }
+  html body .context .mLeft .mlTop .top .username .num .jf,
+  html body .context .mLeft .mlTop .top .username .num .jf_num {
+    font-size: 12px;
+    color: #fff;
+  }
+  html body .context .mLeft .mlTop .top .username .num .lijicz {
+    font-size: 12px;
+    color: #ffec00;
+    cursor: pointer;
+  }
+  html body .context .mLeft .mlTop .top .username .yx_qq {
+    margin-top: 25px;
+  }
+  html body .context .mLeft .mlTop .top .username .yx_qq .icon {
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+  }
+  html body .context .mLeft .mlTop .top .username .yx_qq .icon:hover {
+    color: #980702;
+  }
+  html body .context .mLeft .mlTop .top .username .yx_qq .icon:hover .none {
+    display: block;
+  }
+  html body .context .mLeft .mlTop .top .username .yx_qq .icon .none {
+    font-size: 12px;
+    padding: 4px 10px;
+    background-color: #fff;
+    color: #d8261c;
+    position: absolute;
+    top: 300px;
+    left: 60px;
+    display: none;
+    border-radius: 2px;
+  }
+  html body .context .mLeft .mlTop .top .username .yx_qq .icon .none:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -7px;
+    margin-left: -7px;
+    border: 7px solid #fff;
+    border-width: 0 7px 7px;
+    border-color: transparent transparent #fff;
+  }
+  html body .context .mLeft .mlTop .top .username .yx_qq .icon .none1 {
+    top: 300px;
+    left: 95px;
+  }
+  html body .context .mLeft .mlNr {
+    width: 100%;
+    min-height: 10px;
+    overflow: auto;
+  }
+  html body .context .mLeft .mlNr::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #eee;
+  }
+  html body .context .mLeft .mlNr::-webkit-scrollbar-thumb {
+    background-color: #d8261c;
+    border-radius: 3px;
+  }
+  html body .context .mLeft .mlNr .mlNr_left {
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+  }
+  html body .context .mLeft .mlNr .mlNr_left > li {
+    text-align: center;
+    width: 100%;
+    min-height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    color: #555;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 3px;
+  }
+  html body .context .mLeft .mlNr .mlNr_left > li:hover {
+    color: #d8261c;
+  }
+  html body .context .mLeft .mlNr .mlNr_left > li .icon {
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  html body .context .mLeft .mlNr .mlNr_left > li .red {
+    display: none;
+  }
+  html body .context .mLeft .mlNr .mlNr_left > li ul {
+    display: none;
+  }
+  html body .context .mLeft .mlNr .mlNr_left .active {
+    color: #d8261c;
+    padding-left: 0;
+  }
+  html body .context .mLeft .mlNr .mlNr_left .active .red {
+    display: block;
+    float: left;
+    width: 3px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #d8261c;
+  }
+  html body .context .mLeft .mlNr .mlNr_left .active ul {
+    width: 100%;
+    display: block;
+    text-align: left;
+  }
+  html body .context .mLeft .mlNr .mlNr_left .active ul li {
+    padding-left: 55px;
+    color: #fff;
+    background-color: #d8261c;
+  }
+  html body .context .mLeft .mlNr .mlNr_left .active ul li:hover {
+    color: #fff;
+    background-color: #980702;
+  }
+  html body .context .mLeft .mlNr .mlNr_left .active ul .on {
+    background-color: #980702;
+  }
+  html body .context .mLeft .mlNr .left_li {
+    border: 0;
+  }
+  html body .context .mLeft .mlNr .left_li .panel {
+    border: 0;
+    margin: 0;
+  }
+  html body .context .mLeft .mlNr .left_li .panel .panel-heading {
+    padding: 0;
+    border: 0;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+  }
+  html body .context .mLeft .mlNr .left_li .panel .panel-heading .red {
+    width: 3px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #d8261c;
+    float: left;
+  }
+  html body .context .mLeft .mlNr .left_li .panel .panel-heading a {
+    padding: 10px 15px;
+    display: block;
+    line-height: 30px;
+  }
+  html body .context .mLeft .mlNr .left_li .panel .panel-body {
+    border: 0;
+  }
+  html body .context .mRight {
+    float: left;
+    background-color: #fff;
+    width: 945px;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 10px;
+  }
+  html body .footer {
+    bottom: 0;
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    position: absolute;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  html body .context {
+    width: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+    top: 30%;
+  }
+  html body .context .mLeft {
+    display: none;
+  }
+  html body .footer {
+    bottom: 0;
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: absolute;
+  }
+}
+@media (max-width: 767px) {
+  html body .context {
+    width: 100%;
+    overflow: hidden;
+    margin-top: -20px;
+    transition: 0.3s;
+    top: 30%;
+  }
+  html body .context .mLeft {
+    display: none;
+  }
+  html body .context .mRight {
+    float: left;
+    background-color: #fff;
+    overflow: auto;
+    margin-left: 8px;
+    margin-top: 15px;
+  }
+  html body .context .mRight::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background-color: #eee;
+  }
+  html body .context .mRight::-webkit-scrollbar-thumb {
+    background-color: #d8261c;
+    border-radius: 3px;
+  }
+  html body .footer {
+    bottom: 0;
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: absolute;
+  }
+}

@@ -1,0 +1,388 @@
+html {
+  min-height: 100%;
+}
+html body {
+  width: 100%;
+  min-height: 100%;
+  background-attachment: fixed;
+  background: url(https://img.sandbox.qixinyun.com/twzx-shouye-bg.png) center center / cover no-repeat;
+}
+@media (min-width: 1200px) {
+  html body .context {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    margin: 30px auto 0;
+    transition: 0.3s;
+    top: 30%;
+  }
+  html body .context .search {
+    text-align: center;
+  }
+  html body .context .search .txt {
+    margin: 20px 0px;
+  }
+  html body .context .search .txt .nav-txt {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    border: 0;
+  }
+  html body .context .search .txt .nav-txt li {
+    float: left;
+  }
+  html body .context .search .txt .nav-txt li a {
+    color: #555;
+    border-radius: 5px;
+    padding: 4px 10px;
+  }
+  html body .context .search .txt .nav-txt li a:hover {
+    color: #fff;
+  }
+  html body .context .search .txt .nav-txt > li.active > a,
+  html body .context .search .txt .nav-txt > li.active > a:focus,
+  html body .context .search .txt .nav-txt > li.active > a:hover {
+    cursor: default;
+    background-color: #d8261c;
+    color: #fff;
+    border: 1px solid #d8261c;
+    border-radius: 5px;
+    padding: 4px 10px;
+  }
+  html body .context .search .search-box .searchin {
+    width: 100%;
+  }
+  html body .context .search .search-box .searchin .form-log {
+    width: 40%;
+    margin: 0 auto;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group {
+    width: 100%;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group .search-input {
+    width: 80.5%;
+    height: 45px;
+    border-radius: 4px;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group span {
+    width: 19%;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group span .search-button {
+    height: 45px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  html body .up {
+    text-align: center;
+    height: 42px;
+    padding: 10px 0 0;
+    font: 18px/32px '';
+    width: 125px;
+    color: #D8271C;
+    position: fixed;
+    background: #FFFFFF;
+    border-radius: 15px 15px 0 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 30px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+  }
+  html body .title {
+    width: 100%;
+    transition: 0.3s;
+    display: block;
+    height: 90px;
+    position: fixed;
+    margin: 0 auto;
+    bottom: 30px;
+    padding: 10px;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: -90px;
+  }
+  html body .title .mm {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  html body .title .mm div {
+    float: left !important;
+    padding: 10px 15px 0px !important;
+  }
+  html body .title .mm div h4 {
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #3D3D3D;
+  }
+  html body .title .mm div h4 span {
+    width: 60px;
+    font-size: 32px;
+    vertical-align: middle;
+    margin-right: 11px;
+    color: #d8261c;
+  }
+  html body .title .mm div p {
+    color: #999;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  html body .footer {
+    bottom: 0;
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: absolute;
+    border-top: 1px solid #eee;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  html body .context {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    margin: 30px auto 0;
+    transition: 0.3s;
+    top: 30%;
+  }
+  html body .context .search {
+    text-align: center;
+  }
+  html body .context .search .txt {
+    margin: 20px 0px;
+  }
+  html body .context .search .txt .nav-txt {
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    border: 0;
+  }
+  html body .context .search .txt .nav-txt li {
+    float: left;
+  }
+  html body .context .search .txt .nav-txt li a {
+    color: #555;
+    border-radius: 5px;
+    padding: 4px 10px;
+  }
+  html body .context .search .txt .nav-txt li a:hover {
+    color: #fff;
+  }
+  html body .context .search .txt .nav-txt > li.active > a,
+  html body .context .search .txt .nav-txt > li.active > a:focus,
+  html body .context .search .txt .nav-txt > li.active > a:hover {
+    cursor: default;
+    background-color: #d8261c;
+    color: #fff;
+    border: 1px solid #d8261c;
+    border-radius: 5px;
+    padding: 4px 10px;
+  }
+  html body .context .search .search-box .searchin {
+    width: 100%;
+  }
+  html body .context .search .search-box .searchin .form-log {
+    width: 50%;
+    margin: 0 auto;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group {
+    width: 100%;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group .search-input {
+    width: 75%;
+    height: 45px;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group span {
+    width: 25%;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group span .search-button {
+    height: 45px;
+    width: 100%;
+  }
+  html body .up {
+    text-align: center;
+    height: 42px;
+    padding: 10px 0 0;
+    font: 18px/32px '';
+    width: 125px;
+    color: #D8271C;
+    position: fixed;
+    background: #FFFFFF;
+    border-radius: 15px 15px 0 0;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto 30px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+  }
+  html body .title {
+    width: 100%;
+    transition: 0.3s;
+    display: block;
+    height: 90px;
+    position: fixed;
+    margin: 0 auto;
+    bottom: 30px;
+    padding: 10px;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: -90px;
+  }
+  html body .title .mm {
+    margin: 0 auto;
+  }
+  html body .title .mm div {
+    float: left !important;
+    padding: 10px 15px 0px !important;
+  }
+  html body .title .mm div h4 {
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #3D3D3D;
+  }
+  html body .title .mm div h4 span {
+    width: 60px;
+    font-size: 32px;
+    vertical-align: middle;
+    margin-right: 11px;
+    color: #d8261c;
+  }
+  html body .title .mm div p {
+    color: #999;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  html body .footer {
+    bottom: 0;
+    width: 100%;
+    min-height: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    position: absolute;
+    border-top: 1px solid #eee;
+  }
+}
+@media (max-width: 767px) {
+  html body .context {
+    width: 100%;
+    overflow: hidden;
+    margin: 25% auto 50%;
+    transition: 0.3s;
+    top: 30%;
+  }
+  html body .context .search {
+    text-align: center;
+  }
+  html body .context .search .img img {
+    width: 40%;
+  }
+  html body .context .search .txt {
+    margin: 15px 15px;
+  }
+  html body .context .search .txt img {
+    width: 100%;
+  }
+  html body .context .search .txt .nav-txt {
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    border: 0;
+  }
+  html body .context .search .txt .nav-txt li {
+    float: left;
+  }
+  html body .context .search .txt .nav-txt li a {
+    color: #555;
+    border-radius: 5px;
+    padding: 4px 4px;
+  }
+  html body .context .search .txt .nav-txt li a:hover {
+    color: #fff;
+  }
+  html body .context .search .txt .nav-txt > li.active > a,
+  html body .context .search .txt .nav-txt > li.active > a:focus,
+  html body .context .search .txt .nav-txt > li.active > a:hover {
+    cursor: default;
+    background-color: #d8261c;
+    color: #fff;
+    border: 1px solid #d8261c;
+    border-radius: 5px;
+  }
+  html body .context .search .search-box {
+    width: 100%;
+  }
+  html body .context .search .search-box .searchin {
+    width: 94%;
+    padding: 0px;
+    margin: 0px 3%;
+  }
+  html body .context .search .search-box .searchin .form-log {
+    width: 100%;
+    margin: 0 auto;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group {
+    width: 100%;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group .search-input {
+    width: 70%;
+    height: 45px;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group span {
+    width: 30%;
+  }
+  html body .context .search .search-box .searchin .form-log .input-group span .search-button {
+    height: 45px;
+    width: 100%;
+  }
+  html body .title {
+    width: 100%;
+    transition: 0.3s;
+    display: block;
+    min-height: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    background: rgba(255, 255, 255, 0);
+  }
+  html body .title .mm {
+    margin: 0 auto;
+  }
+  html body .title .mm div {
+    float: left !important;
+    padding: 10px 15px 10px !important;
+  }
+  html body .title .mm div h4 {
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    color: #3D3D3D;
+  }
+  html body .title .mm div h4 span {
+    width: 60px;
+    font-size: 32px;
+    vertical-align: middle;
+    margin-right: 11px;
+    color: #d8261c;
+  }
+  html body .title .mm div p {
+    color: #999;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  html body .footer {
+    bottom: 0;
+    width: 100%;
+    min-height: 10px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-top: 1px solid #eee;
+    position: relative;
+  }
+}
